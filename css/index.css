@@ -170,6 +170,9 @@ p {
   align-items: center;
   flex-wrap: wrap;
   border-bottom: 1px solid lightgrey;
+  position: fixed;
+  background: white;
+  opacity: 0.9;
 }
 .topbar h1 {
   font-size: 4rem;
@@ -201,10 +204,18 @@ footer {
 }
 .home .intro .header-img {
   border-radius: 5px;
+  margin-top: 13%;
 }
 @media (max-width: 500px) {
   .home .intro .header-img {
     width: 100%;
+    margin-top: 23%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .home .intro .header-img {
+    width: 100%;
+    margin-top: 20%;
   }
 }
 .home .intro h2 {
