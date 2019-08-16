@@ -296,11 +296,15 @@ footer {
   padding: 10px 20px;
   border-radius: 10px;
   transition-timing-function: ease-in;
-  transition: 0.2s;
+  transition: 0.4s;
 }
 .home .walk .walk-text button:hover {
   background: white;
   color: #22283a;
+  transform: scale(1.025);
+}
+.home .walk .walk-text button:active {
+  transform: scale(0.9);
 }
 @media (max-width: 500px) {
   .home .walk .walk-text button {
