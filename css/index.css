@@ -184,6 +184,7 @@ p {
 }
 .topbar nav a {
   text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1.5rem;
   color: #5E6164;
   padding: 10px 20px 0px;
@@ -242,6 +243,15 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text button {
+  background: #22283a;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 .home .walk .walk-img {
   width: 46%;
