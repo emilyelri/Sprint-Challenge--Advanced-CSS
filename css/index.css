@@ -156,9 +156,37 @@ p {
   line-height: 1.4;
 }
 .container {
+  width: 100%;
   max-width: 800px;
+  margin: 0 auto;
+}
+.topbar {
   width: 100%;
   margin: 0 auto;
+  padding: 15px 15px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid lightgrey;
+}
+.topbar h1 {
+  font-size: 4rem;
+  padding: 10px;
+}
+.topbar nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.topbar nav a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #5E6164;
+  padding: 10px 20px 0px;
 }
 footer {
   color: #22283B;
@@ -169,6 +197,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro .header-img {
+  border-radius: 5px;
 }
 .home .intro h2 {
   padding: 15px;
