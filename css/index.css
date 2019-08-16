@@ -252,6 +252,12 @@ footer {
   font-weight: bold;
   padding: 10px 20px;
   border-radius: 10px;
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+}
+.home .walk .walk-text button:hover {
+  background: white;
+  color: #22283a;
 }
 .home .walk .walk-img {
   width: 46%;
