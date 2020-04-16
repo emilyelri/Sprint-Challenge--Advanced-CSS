@@ -1,1 +1,26 @@
 // Navigation code here
+
+.topbar {
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 15px 10px;
+    .flex(column, center, center, wrap);
+    border-bottom: 1px solid lightgrey;
+    position: fixed;
+    background: white;
+    opacity: .9;
+
+    h1 {
+        font-size: 4rem;
+        padding: 10px;
+    }
+
+    nav {
+        .flex(row, space-between, center, nowrap);
+        a {
+            text-decoration: none;
+            .font(@body-font, 1.5rem, @main-font-color);
+            padding: 10px 20px 0px;
+        }
+    }
+}

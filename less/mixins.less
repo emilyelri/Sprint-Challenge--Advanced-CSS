@@ -1,1 +1,30 @@
 // Mixins Here
+
+.flex(@dir, @just, @ali, @wrap) {
+    display: flex;
+    flex-direction: @dir;
+    justify-content: @just;
+    align-items: @ali;
+    flex-wrap: @wrap;
+}
+
+.font(@fam, @size, @color) {
+    font-family: @fam;
+    font-size: @size;
+    color: @color;
+}
+
+.btn-color(@bg, @color) {
+    background: @bg;
+    color: @color;
+    font-family: @body-font;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.ease() {
+    transition-timing-function: ease-in;
+    transition: 0.4s;
+}
